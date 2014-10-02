@@ -17,3 +17,10 @@
 * Initializing vagrant locally
   ``vagrant init hashicorp/precise64``
 
+* Settings
+  * argument1 folder from host box is mounted on argument2 folder
+
+      ``config.vm.synced_folder "../project", "/var/www"``
+
+* Boot Up!  ``vagrant up``
+* In the vagrant -> ``vagrant ssh``
